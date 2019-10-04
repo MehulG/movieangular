@@ -1,0 +1,44 @@
+#contents{
+
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.list{
+  list-style: none;
+}
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+#logo-name{
+  margin-left: 1em;
+}
+.top-nav{
+  width: 100%;
+  display: flex;
+  z-index: 9999999;
+}
+#search-parent{
+  justify-self: end;
+  float: right;
+  text-align: right;
+  width: 100%;
+
+}

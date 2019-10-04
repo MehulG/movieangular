@@ -1,0 +1,52 @@
+
+@media only screen and (min-width: 600px) {
+  .movie-card{
+    width: 25%;
+    height: 50vh;
+    float: left;
+    padding: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .movie-card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+  }
+  .poster{
+    float: left;
+    width: 47.5%;
+  }
+  .card-content{
+    margin-left: 50%;
+    width: 50%;
+  }
+  .movie-header{
+    float: right;
+    width: 100%;
+    /* background: orange; */
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .movie-card{
+    width: 70%;
+    height: 80vh;
+    float: left;
+    padding: 1em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .movie-card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+  }
+  .movie-header{
+    float: right;
+    width: 100%;
+    text-align: left;
+  }
+}
