@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
 import { TrendingComponent } from './trending/trending.component';
 import { SearchComponent } from './search/search.component';
+import { UpcomingComponent } from './upcoming/upcoming.component';
 
 const routes:Routes =[{
  path:"trending",
@@ -15,6 +16,10 @@ const routes:Routes =[{
  {
   path:"",
   component: TrendingComponent
+ },
+ {
+  path:"upcoming",
+  component: UpcomingComponent
  }, 
 ];
 

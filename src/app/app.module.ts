@@ -19,6 +19,7 @@ import { TrendingComponent } from './trending/trending.component';
 import { SearchComponent } from './search/search.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {FormsModule} from '@angular/forms';
+import { UpcomingComponent } from './upcoming/upcoming.component';
 
 
 
@@ -28,7 +29,8 @@ import {FormsModule} from '@angular/forms';
     NavigationComponent,
     MovieCardComponent,
     TrendingComponent,
-    SearchComponent
+    SearchComponent,
+    UpcomingComponent
   ],
   imports: [
     BrowserModule,

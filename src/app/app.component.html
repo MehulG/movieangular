@@ -1,7 +1,9 @@
 <mat-toolbar color="primary" class="top-nav">
-                <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
-                <span id="logo-name">TMDB</span>
-                <button mat-button>apple</button>
+                <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+                <span id="logo-name">TMDB</span> -->
+                <a class="href-tag" [routerLink] = "['/trending']"><button mat-button>TMDB</button></a>
+                <a class="href-tag" [routerLink] = "['/upcoming']"><button mat-button>Upcoming</button></a>
+                
         <span id="search-parent">
 
         <form [formGroup] = "searchForm" (ngSubmit)="onSubmit()">
